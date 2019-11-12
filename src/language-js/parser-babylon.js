@@ -20,6 +20,7 @@ function babelOptions(extraOptions, extraPlugins = []) {
       errorRecovery: true,
       plugins: [
         "jsx",
+        "eventualSend",
         "doExpressions",
         "objectRestSpread",
         "classProperties",
@@ -52,7 +53,7 @@ function babelOptions(extraOptions, extraPlugins = []) {
 function createParse(parseMethod, extraPlugins) {
   return (text, parsers, opts) => {
     // Inline the require to avoid loading all the JS if we don't use it
-    const babel = require("@babel/parser");
+    const babel = require("@agoric/babel-parser");
 
     let ast;
     try {

@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@agoric/babel-parser@^7.0.0":
+  version "7.6.4"
+  resolved "https://registry.yarnpkg.com/@agoric/babel-parser/-/babel-parser-7.6.4.tgz#8dd5d36554cc758c29042713b5aa57dc58ee5273"
+  integrity sha512-3FQC3eP2hekhz1zn+2LcSL7tAG2dGgSqbmCeRfIFqhVS8bbE1hR7EvrC6jYlvqdU6yzlly43VykyRy9MHBvUAw==
+
 "@angular/compiler@8.2.13":
   version "8.2.13"
   resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-8.2.13.tgz#76d35761918df8cadeb1624418377712d259347f"
@@ -244,7 +249,7 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@7.7.3", "@babel/parser@^7.7.0", "@babel/parser@^7.7.2":
+"@babel/parser@^7.7.0", "@babel/parser@^7.7.2":
   version "7.7.3"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.7.3.tgz#5fad457c2529de476a248f75b0f090b3060af043"
   integrity sha512-bqv+iCo9i+uLVbI0ILzKkvMorqxouI+GbV13ivcARXn9NNEabi2IEz912IgNpT/60BNXac5dgcfjb94NjsF33A==
